@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, inital-scale=1.0">
+    <title>Tags</title>
+</head>
+
+<body>
+    <h1>Tags</h1>
+
+
+    <h2 id="sections">
+        Sections
+    </h2>
+    <ol>
+        <li>
+            HTML tags
+            <ol>
+                <li><a href="#HTML_Skeleton">HTML Skeleton</a></li>
+                <li>
+                    <a href="#Head_section">Head - metadata</a>
+                    <ol>
+                        <li><a href="#Title_section">Title tag</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="#Body_section">Body tags</a>
+                    <ol>
+                        <li><a href="#HtmlTags_Section_Header">Header tag</a></li>
+                        <li><a href="#HtmlTags_Section_Text">Text tags</a></li>
+                        <li><a href="#HtmlTags_Section_Tags">Writing tags</a></li>
+                        <li><a href="#HtmlTags_Section_List"> Lists </a></li>
+                        <li><a href="#HtmlTags_Section_Ancor">Anchor</a></li>
+                        <li><a href="#HtmlTags_Section_Image">Image</a></li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+
+    </ol>
+    <h2 id="HtmlTags_Section"> HTML tags </h2>
+    <h3 id="HTML_Skeleton">HTML Boilerplate/Skeleton</h3>
+    <p>
+        Each HTML file must include 4 different tags as follow: <br>
+    <ol id="ordered_list">
+        <li>
+            <b>&lt;!DOCTYPE html&gt;</b> - this tag indicates that this an HTML file, there is no closing bracket for
+            this tag.
+        </li>
+        <li>
+            <b>&lt;html&gt; &lt;/html&gt;</b> - this tag is the root tag all the rest of the page comes between this tag
+            it can contain only one head tag and one body tag.
+        </li>
+        <li>
+            <b>&lt;head&gt; &lt;/head&gt;</b> - this tag holds the metadata of the html file.
+        </li>
+        <li>
+            <b>&lt;body&gt; &lt;/body&gt;</b> - this tag holds the content of the html file.
+        </li>
+    </ol>
+    <h3 id="Head_section">Head - The metadata</h3>
+    All the information stored between this tags is metadata of the page, no info from here will be shown in the
+    actual visual of the page.
+    <h4 id="Title_section">Title tag</h4>
+    The title tag, controls the title of the page in the metadata, the only place the title appears and is
+    visible
+    to the user is in two places, the first is the tab holding this window, the other one is when this page
+    is
+    shown
+    as a google search result since google use this information.
+    <h3 id="Body_section">Body - The content of the page</h3>
+    <h4 id="HtmlTags_Section_Header">Header tag</h4>
+    <p>
+        To create a a new header we use the <b>&lt;h&gt; &lt;/h&gt;</b> and after the h we add a number from 1 to 6,
+        each number decides the header size, each increasing number cause a smaller header.
+    </p>
+    <h4 id="HtmlTags_Section_Text">Text tags</h4>
+    <p>
+        To make a word <b>bold</b> we wrap it in the <b>&lt;b&gt; &lt;\b&gt;</b> tags.<br>
+        To make a word <i>italian</i> we wrap it in the <b>&lt;i&gt; &lt;\i&gt;</b> tags.<br>
+        To make a word have an <u>underline</u> we wrap it in the <b>&lt;u&gt; &lt;\u&gt;</b> tags.<br>
+    </p>
+    <h4 id="HtmlTags_Section_Tags">Writing tags</h4>
+    <p>
+        To mark a group of lines as a paragarph we wrap them in the <b>&lt;p&gt; &lt;/p&gt;</b>.<br>
+        And when I want to make a new line I use <b>&lt;br&gt;</b> without a closing tag at the end of the line.<br>
+    </p>
+    <h4 id="HtmlTags_Section_List">List tags</h4>
+    <p>
+        To create a list of items in the page we need one of two tags:
+    <ul>
+        <li>
+            <b>&lt;ol&gt;&lt;/ol&gt;</b> which creates an ordered list.
+        </li>
+        <li>
+            <b>&lt;ul&gt;&lt;/ul&gt;</b> which creats an unordered list.
+        </li>
+    </ul>
+    The child tags for the lists are using the tags <b>&lt;li&gt;&lt;/li&gt;</b> to declare a list item, they are used
+    both in ordered and unordered lists the differences are that if we are doing an ordered list we will have numbers as
+    a prefix for each list item starting at 1 and increasing as can be seen here <a href="#ordered_list">ordered
+        list</a>, and inn the case
+    of an unorderd list we will have bullet
+    points.
+    We can only use list items, scripts and templates in the lists tags.
+    </p>
+    </p>
+    <h4 id="HtmlTags_Section_Ancor">Anchor tags</h4>
+    <p>
+        The Ancor tag is - <b>&lt;a&gt;&lt;a&gt;</b>
+        It used to add links in your text, to add a link we write href="{Some link}", then anything between the anchor
+        tags, will be
+        a link.
+        The link idea works to navigate from your current page adding /{Some Link}, this can be useful to navigate
+        inside the website,
+        or like Wiki does with the menu section, but to actually link to the world wide web, we must add https://www. at
+        the
+        start of the link,
+        so if I wanted to link to Google, and I missed the www-prefix I would get <a href="google.com">Borken Google
+            link</a>
+        and the correct one will be <a href="https://www.google.com">Working Google link</a>.
+    </p>
+    <h4 id="HtmlTags_Section_Image">Image tags</h4>
+    <p>
+        The image tags are used to embed images inside your web.
+        The tag for using an image is <b>&lt;img&gt;</b>, each tag must contain a source property, the path to the image
+        file.
+        <a href="my_light.html">Image of my daughter</a>
+        You can use more properties to setup the image, like the width and height.
+    </p>
+</body>
+
+</html>
