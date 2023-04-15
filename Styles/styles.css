@@ -2,18 +2,18 @@
     background-color: #43B3AE;
     border-radius: 16px;
     height: fit-content;
-    /* border-image: url("../Assets/Images/header_back.png"); */
     margin: auto;
     vertical-align: middle;
+    width: var(background-image);
+    overflow: auto;
+    background-image: url("../Assets/Images/header_back.png") 100px;
 }
 
 .title_item h1 {
     text-align: center;
-    color: whitesmoke;
+    color: rgb(234, 233, 226);
     font-family: Helvetica;
     padding: 25px;
-    border: inherit;
-    overflow: auto;
 }
 
 .main_page_p {
