@@ -1,0 +1,22 @@
+.title_item {
+    background-color: #43B3AE;
+    border-radius: 16px;
+    height: 50px;
+}
+
+.title_item h1 {
+    text-align: center;
+    color: whitesmoke;
+    font-family: Helvetica;
+    padding: 5px;
+}
+
+.main_page_p {
+    font-family: Helvetica;
+    white-space: pre-line;
+    text-align: left;
+}
+
+html {
+    background: #FFFBED;
+}

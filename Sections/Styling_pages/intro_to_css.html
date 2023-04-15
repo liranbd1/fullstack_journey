@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="./external_style.css" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Into to CSS</title>
+</head>
+
+<body>
+    <h1>Intro to CSS</h1>
+    <p>CSS (Cascading Style Sheet) is the convention to write styles for HTML pages with the idea of splitting the style
+        from the actual html page.<br>
+        <b>Note:</b> This page is going to remain ugly since its only purpose is to show CSS applied in different
+        ways.<br>
+        There are 3 main ways to add CSS, to see the differences on this page take a look on the source code.
+
+    </p>
+    <ol>
+        <li>
+            <div style="background:blue; color:red;"> <!--Here is the Inline css-->
+                <h2 id="inline">Inline</h2>
+                <p>Here is a paragarph with a blue background while the text is red (I know this is
+                    not nice to the eye but it's
+                    an example deal with it)</p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <!--Here is the internal notice we describe which item we style-->
+                <!--I used the section container to be able to not override other secitons in this pages-->
+                <style>
+                    section {
+                        background: green;
+                        color: blue;
+                    }
+                </style>
+                <section>
+                    <h2 id="internal">Internal</h2>
+                    <p>This paragarph will have a green background with a blue text using the internal way to add css
+                    </p>
+                </section>
+            </div>
+        </li>
+        <li>
+
+            <div class="my_external">
+                <h2 id="external">External</h2>
+                <p>This is the most used way to style HTML pages, it remove the dependancy between the style to the
+                    content of the page.
+                    I added some extra here using the class attribute of the div tag with a class selector in the css
+                    file.
+                </p>
+            </div>
+        </li>
+    </ol>
+</body>
+
+</html>
