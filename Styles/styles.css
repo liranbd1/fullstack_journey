@@ -4,6 +4,7 @@
     height: fit-content;
     /* border-image: url("../Assets/Images/header_back.png"); */
     margin: auto;
+    vertical-align: middle;
 }
 
 .title_item h1 {
