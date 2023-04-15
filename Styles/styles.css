@@ -1,22 +1,26 @@
 .title_item {
     background-color: #43B3AE;
     border-radius: 16px;
-    height: 50px;
+    height: fit-content;
+    /* border-image: url("../Assets/Images/header_back.png"); */
+    margin: auto;
 }
 
 .title_item h1 {
     text-align: center;
     color: whitesmoke;
     font-family: Helvetica;
-    padding: 5px;
+    padding: 25px;
+    border: inherit;
+    overflow: auto;
 }
 
 .main_page_p {
     font-family: Helvetica;
     white-space: pre-line;
-    text-align: left;
+    text-align: left, top;
 }
 
 html {
-    background: #FFFBED;
+    background-color: #FFFBED;
 }
