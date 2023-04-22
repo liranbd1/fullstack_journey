@@ -1,5 +1,5 @@
 .title_item {
-    background-color: #43B3AE;
+    background-color: #569DAA;
     border-radius: 16px;
     height: fit-content;
     margin: auto;
@@ -11,7 +11,7 @@
 
 .title_item h1 {
     text-align: center;
-    color: rgb(234, 233, 226);
+    color: #B9EDDD;
     font-family: Helvetica;
     padding: 25px;
 }
@@ -23,5 +23,52 @@
 }
 
 html {
-    background-color: #FFFBED;
+    background-color: #B9EDDD;
+}
+
+.unordered_list {
+    border-radius: 16px;
+}
+
+div.content_list_main {
+    padding: 5px;
+    margin: 15px;
+    align-items: center;
+    align-content: center;
+
+}
+
+/*Content list for main page*/
+
+ul.content_list_main {
+    list-style-type: circle;
+    margin: 0;
+    display: table-row;
+}
+
+li.content_list_main {
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    margin: 5px;
+}
+
+a.content_list_main:hover {
+    background-color: #27E1C1;
+}
+
+a.content_list_main {
+    text-align: center;
+    cursor: pointer;
+    background-color: #87CBB9;
+    overflow-wrap: break-word;
+    text-align: center;
+    padding-top: 25px;
+    border-radius: 16px;
+
+    border: 1px solid #ADE4DB;
+    color: inherit;
+    display: block;
+    width: 250px;
+    height: 40px;
 }
