@@ -64,11 +64,28 @@ a.content_list_main {
     overflow-wrap: break-word;
     text-align: center;
     padding-top: 25px;
-    border-radius: 16px;
-
+    border-radius: 69.5px;
+    text-decoration: none;
     border: 1px solid #ADE4DB;
     color: inherit;
     display: block;
     width: 250px;
     height: 40px;
+    font-family: Helvetica;
+}
+
+.paragraph_section {
+    border-bottom: 1px solid #ADE4DB;
+}
+
+.paragraph_section p {
+    margin-left: 15px;
+}
+
+.paragraph_section h2 {
+    margin-bottom: -10px;
+}
+
+.paragraph_section h3 {
+    margin-bottom: -13px;
 }
